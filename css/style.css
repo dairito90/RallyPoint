@@ -139,7 +139,8 @@ a.navbar-brand img {
 }
 a.navbar-brand span {
   color: #2FD828;
-  margin-left: 12px;
+  margin-left: 20px;
+
 }
 .navbar {
     position: relative;
@@ -518,7 +519,7 @@ a.navbar-brand span {
     padding-left: 0;
 }
 .wthree-welcome h2 {
-    color: #f99104;
+    color: #A9A9A9;
     margin: 0;
     font-size: 36px;
     font-weight: 600;
@@ -667,7 +668,7 @@ color: white;
 }
 .w3agile_tab_left h4 {
     font-size: 22px;
-    color: #f99104;
+    color: #A9A9A9;
     line-height: 32px;
     text-transform: uppercase;
     font-weight: 600;
@@ -685,7 +686,7 @@ color: white;
     margin: 2em 0 0;
 }
 .features h3 {
-    color: #f99104;
+    color: #A9A9A9;
     margin: 0;
     font-size: 36px;
     font-weight: 600;
@@ -770,7 +771,7 @@ color: white;
 	color: #ffffff;
 }
 .footer-top h3 {
-    color: #f99104;
+    color: #C0C0C0;
     margin-bottom: 30px;
     font-size: 22px;
     text-transform: uppercase;
@@ -2573,4 +2574,14 @@ h5.tittle{
 .map iframe {
     min-height: 200px;
 }
+}
+
+
+.webinar {
+	font-size: 0.5 rem;
+}
+
+
+.head {
+	padding: 10px;
 }
