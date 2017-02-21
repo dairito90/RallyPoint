@@ -31,12 +31,12 @@ jQuery(document).ready(function($){
 		closeNav();
 	});
 
-	
-	
-	
 
 
-	
+
+
+
+
 
 	//submenu items - go back link
 	$('.go-back').on('click', function(){
@@ -57,7 +57,7 @@ jQuery(document).ready(function($){
 
 	function toggleSearch(type) {
 		if(type=="close") {
-			//close serach 
+			//close serach
 			$('.cd-search').removeClass('is-visible');
 			$('.cd-search-trigger').removeClass('search-is-visible');
 			$('.cd-overlay').removeClass('search-is-visible');
@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
 
 	function checkWindowWidth() {
 		//check window width (scrollbar included)
-		var e = window, 
+		var e = window,
             a = 'inner';
         if (!('innerWidth' in window )) {
             a = 'client';
@@ -97,4 +97,26 @@ jQuery(document).ready(function($){
 			navigation.insertAfter('.cd-main-content');
 		}
 	}
+});
+
+
+
+
+
+$(document).ready(function() {
+	$('.carousel').carousel();
+	$('.carousel').on('slide.bs.carousel', function () {
+		$('.carousel-caption h3').animate({
+			marginLeft: "+=20%",
+          fontSize: "1px",
+			opacity: 0
+		}, 50);
+	})
+	$('.carousel').on('slid.bs.carousel', function () {
+		$('.carousel-caption h3').animate({
+			marginLeft: 0,
+          fontSize: "55px",
+			opacity: 0.8
+		}, 600);
+	})
 });

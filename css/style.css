@@ -50,7 +50,7 @@ a:focus, a:hover {
 /*-- //Reset-Code --*/
 /*-- Index-Page-Styling --*/
 .modal-header h4 {
-    color: #f99104;
+    color: #A9A9A9;
     margin: 0;
     font-size: 2em;
     font-weight: 600;
@@ -445,7 +445,7 @@ a.navbar-brand span {
     backface-visibility: hidden;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
-    background: #f99104;
+    background: #A9A9A9;
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -612,7 +612,7 @@ color: white;
 }
 .agileits_w3layouts_about_counter_left i {
     font-size: 30px;
-    color: #f99104;
+    color: #A9A9A9;
     padding: 1em 0;
 }
 .agileits_w3layouts_about_counter_left p {
@@ -658,7 +658,7 @@ color: white;
     color: #fff;
 }
 .nav > li > a:hover, .nav > li > a:focus {
-     background: #00b7c9;
+     background: #A9A9A9;
 }
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     border: 1px solid #00b7c9;
@@ -1368,7 +1368,7 @@ h2.typoh2{
 }
 .w3ls_head {
     text-align: center;
-    color: #f99104;
+    color: black;
     font-size: 36px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1517,7 +1517,7 @@ h5.tittle{
     border: none;
     outline: none;
     color: #fff;
-    background:#00b7c9;
+    background:#C0C0C0;
     font-size: 21px;
     margin: 0;
     display: block;
@@ -1531,7 +1531,7 @@ h5.tittle{
     font-weight: 600;
 }
 .contact-w3-agileits input[type="submit"]:hover {
-    background: #f99104;
+    background: #A9A9A9;
     color: #ffffff;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -1549,14 +1549,14 @@ h5.tittle{
 }
 .contact-w3layouts-right ul li span {
     left: -1em;
-    color: #f99104;
+    color: #A9A9A9;
 }
 .contact-w3layouts-right ul li a{
 	color:#999;
 	text-decoration:none;
 }
 .contact-w3layouts-right ul li a:hover{
-	color:#f99104;;
+	color:#A9A9A9;;
 }
 .contact-w3layouts-right {
     padding-left: 50px;
@@ -1566,7 +1566,7 @@ h5.tittle{
     text-transform: uppercase;
     margin-bottom: 30px;
     font-weight: 600;
-    color: #00b7c9;
+    color: #C0C0C0;
 }
 /*--//contact--*/
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
@@ -1586,14 +1586,14 @@ h5.tittle{
 	position: absolute;
     width: 50px;
     height: 50px;
-    background: #00b7c9;
+    background: #DCDCDC;
     border-radius: 40px;
     top: -20%;
     left: 5%;
     text-align: center;
 }
 .agileinfo_services_grid1_pos span{
-	color: #fff;
+
     font-size: 1em;
     top: 15px;
 }
@@ -1624,7 +1624,7 @@ h5.tittle{
 	margin:6em 0 0;
 }
 .agileinfo_services_grid:hover .agileinfo_services_grid1 h4:after,.agileinfo_services_grid:hover .agileinfo_services_grid1_pos{
-	background:#f99104;
+	background:#C0C0C0	;
 }
 .agileinfo_services_grid:hover .agileinfo_services_grid1_pos span{
 	color: #fff;
@@ -1741,7 +1741,7 @@ h5.tittle{
 .view-caption ul li a {
     background-color: #fff;
     border-radius: 50%;
-    color: #f99104;
+    color: #A9A9A9;
     display: inline-block;
     margin: 0 2px;
     height: 28px;
@@ -1780,7 +1780,7 @@ h5.tittle{
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #00b7c9;
+    color: #A9A9A9;
 }
 .ab-w3ls-right p {
     font-size: 15px;
@@ -2585,3 +2585,10 @@ h5.tittle{
 .head {
 	padding: 10px;
 }
+
+
+.carousel-caption h3 {
+   font-size: 1px;
+ }
+
+ .carousel-indicators li { visibility: hidden; }
